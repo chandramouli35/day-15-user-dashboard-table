@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Day 15 – Admin Dashboard Table with Sort, Filter & Actions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of my 150-day developer preparation journey, focused on building scalable UI modules used in real dashboards and CMS platforms. On Day 15, I built a dynamic user table using React that supports client-side sorting, filtering, and row-level actions.
 
-## Available Scripts
+## ✅ What I Practiced:
+- API data fetching with useEffect and Axios
+- Sorting logic via column headers (ascending/descending)
+- Text-based filtering by name/email
+- Dropdown filter by role/status
+- Rendering actions (View/Delete) per row
+- Table layout with sticky headers (optional bonus)
+- Clean separation of table/data/filter logic
 
-In the project directory, you can run:
+## 🧠 Key Concepts Covered:
+- Mapping fetched data into structured UI
+- Controlled inputs for live filtering
+- Sorting algorithms using toggle and direction state
+- Action buttons tied to row-level logic
+- Reusable component architecture (TableHeader, TableRow, FilterBar)
 
-### `npm start`
+## 🛠 Features:
+- Display users with Name, Email, Role, Status
+- Input field to filter by name or email text
+- Role dropdown to filter results
+- Header click to sort columns
+- Action buttons: View/Delete (optional toast/confirmation)
+- Basic layout using Tailwind grid and spacing
+- *Note:* Responsiveness not prioritized for this version
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Tech Stack:
+- React.js (Hooks and component composition)
+- Axios for API requests
+- Tailwind CSS (utility-first styling)
+- JavaScript sort/filter logic
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔥 Why This Matters:
+Admin dashboards are core to product management, internal tools, and data operations. Today’s build reflects how to structure a readable, sortable, filterable dataset with intuitive logic and scalable layout decisions.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Day 15 complete. Tables aren’t just data—they’re decisions made visible.
