@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover-row:hover {
+  background-color: #f3f4f6;
+  transition: background-color 0.2s;
+}
